@@ -3,3 +3,6 @@ by Justin Sham
 
 It's been nearly 4 years...
 Adobe Flash has been permanently abandoned by major web browsers...
+
+on 12 September, it is decided that a brand new repository is to be created:
+github.com/JustinusScemus/GreatDistrictWarsHK
