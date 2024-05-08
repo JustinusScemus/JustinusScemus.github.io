@@ -1,0 +1,23 @@
+Provide 20 JSON entries for each of the following five categories of Android Apps:
+
+Health & Fitness
+Art & Design
+Travel & Local
+Food & Drink
+Music & Audio
+
+Each entry should contain the following key and value pairs:
+"multireviewer_id": internal id only used by MultiReviewer (follows "MRnnnnnn")
+"app_name": name of the app
+"package_name": package name (starts with "com.")
+"update_version": version of the latest update
+"update_date": date of the latest update
+"downloads": (in double, as in Google Play category) "https://stackoverflow.com/questions/11487470/number-of-downloads-in-google-play#:~:text=In%20order%20to%20see%20the%20unique%20install%20count,a%20sole%20number%20for%20a%20download%20count%20badge."
+"developer": name of the developer
+
+*Example:*
+[{"multireviewer_id": "MR000001", "app_name":"Canva: Design, Photo & Video", "package_name":"com.canva.editor", "update_version": "2.191.0", "update_date": "2022-11-08", "downloads": "100000000", "developer": "Canva"},
+<!--19 more-->
+]
+
+Push to somewhere in git
